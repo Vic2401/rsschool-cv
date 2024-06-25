@@ -10,9 +10,9 @@
 
 ### **Email:** vburman2401@gmail.com
 
-### **Telegram:**
+### **Telegram:** @Vik2401
 
-[linkedin](адрес)
+[linkedin](https://www.linkedin.com/in/viktor-burman-b13b941a4/)
 
 ---
 
@@ -53,7 +53,7 @@ function solution(str){
 
 ## Cources:
 
-- HTML&CSS Tutorial and Projects Course (Flexbox&Grid) on the [udemy](адрес)
+- HTML&CSS Tutorial and Projects Course (Flexbox&Grid) on the [udemy](https://www.udemy.com/)
 
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
