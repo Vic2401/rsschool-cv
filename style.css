@@ -56,6 +56,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  border-bottom: 5px solid #f06449;
 }
 
 .about {
@@ -86,6 +87,11 @@ p {
 h1 {
   padding-top: 15px;
   text-transform: uppercase;
+}
+
+.about h3 {
+  color: #f06449;
+  margin-top: 15px;
 }
 
 .header p {
@@ -174,3 +180,31 @@ pre {
   color: black;
 }
 /**/
+
+.footer {
+  border-top: 5px solid #f06449;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 150px;
+  background: #022a3c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer h3 {
+  color: #f06449;
+}
+
+.footer nav ul {
+  display: flex;
+}
+
+.footer a {
+  color: #f06449;
+}
+
+.footer nav li {
+  padding: 10px;
+}
