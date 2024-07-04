@@ -208,3 +208,12 @@ pre {
 .footer nav li {
   padding: 10px;
 }
+
+.rs-school-logo {
+  max-width: 25%;
+}
+
+.rs-school-logo a {
+  color: #f06449;
+  /* font-size: 50px; */
+}
