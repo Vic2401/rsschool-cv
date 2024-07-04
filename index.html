@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESUME</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-image"><img src="./VB.jpg" alt="vb" /></div>
+      <div class="about">
+        <h1>Burman Viktor</h1>
+        <h2>Software developer</h2>
+        <h3>About me</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor saepe
+          nemo consequatur atque perspiciatis illum inventore odit, alias
+          excepturi, consectetur voluptatibus, molestias magni reprehenderit.
+          Dignissimos!
+        </p>
+      </div>
+    </header>
+
+    <main class="main">
+      <article class="card">
+        <h3>Contacts</h3>
+        <div class="elements-container">
+          <div class="element">
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+            <p>0123456789</p>
+          </div>
+          <div class="element">
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+            <p>vburman2401@gmail.com</p>
+          </div>
+          <div class="element">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <p>Linkedin</p>
+          </div>
+          <div class="element">
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+            <p>@Vic2401</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Education & Career</h3>
+        <div class="elements-container">
+          <ul>
+            <li>University of not your Bussiness, Kyiv, Ukraine 2010</li>
+            <li>CSS and JS Cources from Udemy</li>
+            <h3>Job dueties</h3>
+            <ul>
+              <li>Creation of something remotely usefull</li>
+              <li>Dealing with problems</li>
+            </ul>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Languages</h3>
+        <div class="elements-container">
+          <ul>
+            <li>English (C1) Confirmes by IELTS Test(8.5, 8, 7.5, 7)</li>
+            <li>German (B1/B2)</li>
+            <li>Ukrainian (nativ)</li>
+            <li>Russian (fluent)</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Examples of my code:</h3>
+        <div class="elements-container">
+          <code>
+            <p>
+              //Write a function that takes an object as an argument and returns
+              a new array with the names of the keys - the value of which is
+              false
+            </p>
+            <pre>
+              function test(param) {
+                return Object.keys(param).reduce(
+                  (acc, rec) => {  
+                    if (!param[rec]) {  
+                    return acc.concat([rec])  
+                    }      
+                  return acc  
+                },  
+                []  
+              )  
+              }     
+            </pre>
+          </code>
+        </div>
+      </article>
+    </main>
+    <footer class="footer">
+      <nav>
+        <ul>
+          <li>2024 by Viktor Burman</li>
+          <li>Git</li>
+          <li>Linkedin</li>
+          <li>RS School</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
